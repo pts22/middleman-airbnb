@@ -1,0 +1,28 @@
+
+<ul class="list-inline text-center team-photos">
+  <% ["pts22", "random"].each do |gh_username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle team-photo" %>
+      <h3><%= gh_username.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
+
+<div class="message">
+  <img class="avatar-large" src="https://kitt.lewagon.com/placeholder/users/gabriel-dehan">
+  <div class="message-name">
+    <h3>Gab Dehan</h3>
+    <p>10/07/17</p>
+  </div>
+  <div class="message-body">
+    <p><strong>I am not sure yet!</strong></p>
+    <p>
+      I am not sure yet! I might be in Shanghai at this moment... Can I tell you later?
+    </p>
+  </div>
+  <div class="message-status">
+    <p class="status pending">Pending</p>
+    <p class="price">€345</p>
+  </div>
+</div>
+
